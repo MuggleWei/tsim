@@ -1,0 +1,9 @@
+#ifndef TSIM_CONFIG_IN_H_
+#define TSIM_CONFIG_IN_H_
+
+#cmakedefine TSIM_VERSION "@TSIM_VERSION@"
+
+#cmakedefine01 TSIM_USE_DLL
+#cmakedefine01 TSIM_USE_ASYNC_LOG
+
+#endif // !TSIM_CONFIG_IN_H_
